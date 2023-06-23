@@ -1,4 +1,4 @@
-resource "aws_security_group" "demo-sg" {
+resource "aws_security_group" "sg" {
 name = "sec-grp"
 description = "it allows ssh, all, http"
 ingress {
