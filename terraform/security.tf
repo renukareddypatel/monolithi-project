@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg" {
-name = "sec-grp"
+name = "new-sec-grp"
 description = "it allows ssh, all, http"
 ingress {
 from_port = 80
